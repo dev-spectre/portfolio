@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="px-5 pt-32 text-secondary">
+    <section id="about" className="px-5 pt-32 text-secondary">
       <p className="mb-2">
         visitor@spectre.us.kg:~$ <span className="text-accent">init --portfolio</span>
       </p>
@@ -26,6 +26,6 @@ export default function Hero() {
           <p>Kochi, IN</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -27,7 +27,7 @@ export default function Works() {
   ];
 
   return (
-    <div id="works" className="mt-32 text-secondary">
+    <section id="works" className="mt-32 text-secondary">
       <h2 className="text-accent px-5 uppercase mb-5 text-xl">Projects</h2>
       <div className="divide-y border-t border-b border-border divide-border">
         {projects.map((project) => (
@@ -52,6 +52,6 @@ export default function Works() {
           </a>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

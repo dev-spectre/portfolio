@@ -15,22 +15,24 @@ export default function Skills() {
 
   return (
     <section id="skills" className="px-5">
-      <h2 className="text-accent uppercase mb-5 mt-16 text-xl">Skills</h2>
-      <div className="">
-        <div>
-          {languages.map((lang) => (
-            <SkillChip active={active.includes(lang)} key={lang} skill={lang} />
-          ))}
-        </div>
-        <div>
-          {frameworks.map((fw) => (
-            <SkillChip active={active.includes(fw)} key={fw} skill={fw} />
-          ))}
-        </div>
-        <div>
-          {infrastructure.map((infra) => (
-            <SkillChip active={active.includes(infra)} key={infra} skill={infra} />
-          ))}
+      <div className="container mx-auto">
+        <h2 className="text-accent uppercase mb-5 mt-16 text-xl">Skills</h2>
+        <div className="">
+          <div>
+            {languages.map((lang) => (
+              <SkillChip active={active.includes(lang)} key={lang} skill={lang} />
+            ))}
+          </div>
+          <div>
+            {frameworks.map((fw) => (
+              <SkillChip active={active.includes(fw)} key={fw} skill={fw} />
+            ))}
+          </div>
+          <div>
+            {infrastructure.map((infra) => (
+              <SkillChip active={active.includes(infra)} key={infra} skill={infra} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

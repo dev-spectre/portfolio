@@ -1,28 +1,28 @@
 export default function Works() {
   const projects = [
     {
-      name: "Automatic Bell System",
-      stack: ["TypeScript", "Hono.js", "Cloudflare Workers", "Tauri", "Rust", "MicroPython"],
-      tag: "IoT - Full Stack",
-      link: "/automatic-bell-system",
-    },
-    {
       name: "Punit Mishra Prep",
       stack: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "PostgreSQL"],
       tag: "Freelance",
-      link: "/punit-mishra-prep",
+      link: "/projects/punit-mishra-prep",
+    },
+    {
+      name: "Automatic Bell System",
+      stack: ["TypeScript", "Hono.js", "Cloudflare Workers", "Tauri", "Rust", "MicroPython"],
+      tag: "IoT - Full Stack",
+      link: "/projects/automatic-bell-system",
     },
     {
       name: "Secure Private Cloud",
       stack: ["Raspberry Pi 5", "LAMP", "Nextcloud", "DuckDNS", "SSL", "Cloudflare Tunnel"],
       tag: "IoT - Infrastructure",
-      link: "/secure-private-cloud",
+      link: "/projects/secure-private-cloud",
     },
     {
       name: "Nyxia",
       stack: ["Astro", "TailwindCSS", "Vercel"],
       tag: "Frontend",
-      link: "/nyxia",
+      link: "/projects/nyxia",
     },
   ];
 

@@ -27,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="darkreader-lock" />
+      </head>
       <body className={`${jetbrainsMono.variable} antialiased bg-background`}>{children}</body>
     </html>
   );

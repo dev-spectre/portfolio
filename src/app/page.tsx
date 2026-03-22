@@ -14,14 +14,14 @@ export default function Home() {
       <Works />
       <Skills />
 
-      <div className="px-5">
+      {/* <div className="px-5">
         <div className="lg:grid grid-cols-2 gap-10 container mx-auto">
           <Setup />
           <div className="mt-16">
             <Terminal />
           </div>
         </div>
-      </div>
+      </div> */}
       <Contact />
     </div>
   );

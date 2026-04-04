@@ -143,6 +143,7 @@ Available commands:
   clear           clear the terminal screen
   sudo rm -rf /   delete everything (please don't)
   help            display this help message
+  exit            exit the terminal
 
 Examples:
   $ whoami

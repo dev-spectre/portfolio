@@ -2,7 +2,7 @@ export default function Setup() {
   const setup = [
     {
       name: "OS",
-      value: "NixOS",
+      value: "CachyOS",
     },
     {
       name: "WM",
@@ -10,7 +10,7 @@ export default function Setup() {
     },
     {
       name: "Terminal",
-      value: "Kitty",
+      value: "Alacritty",
     },
     {
       name: "Editor",

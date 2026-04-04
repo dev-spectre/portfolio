@@ -29,7 +29,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="fixed isolate z-50 inset-0 bottom-auto">
+    <div id="nav" className="fixed isolate z-50 inset-0 bottom-auto">
       <nav className="border-b bg-background md:bg-transparent md:backdrop-blur-sm border-b-border px-5 text-lg py-4">
         <div className="flex justify-between container mx-auto items-center">
           <div className="font-bold text-white hover:text-accent">

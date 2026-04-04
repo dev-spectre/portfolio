@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="about" className="pt-32 px-5 text-secondary">
+    <section id="about" className="pt-32  px-5 text-secondary">
       <div className="container mx-auto">
         <p className="mb-2 text-sm">
           visitor@spectre.us.kg:~$ <span className="text-accent block sm:inline mb-3">init --portfolio</span>

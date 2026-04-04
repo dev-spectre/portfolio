@@ -10,8 +10,8 @@ interface BottombarProps {
 export default function Bottombar({ nextProjectSlug, nextProjectName, previousProjectName, previousProjectSlug }: BottombarProps) {
   return (
     <div className="px-5 border-t border-border">
-      <div className="py-5 flex flex-wrap gap-10 items-center justify-between container mx-auto">
-        <div>
+      <div className="py-5 sm:flex flex-wrap gap-10 items-center justify-between container mx-auto">
+        <div className="mb-10 sm:mb-0">
           {previousProjectSlug && (
             <Link href={`/projects/${previousProjectSlug}`} className="group">
               <span className="text-secondary block uppercase tracking-wide">Previous project</span>

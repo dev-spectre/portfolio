@@ -88,10 +88,14 @@ export default function Project() {
         <section className="container relative py-5 m-auto">
           <h2 className="text-primary mb-3 uppercase">Problem</h2>
           <p className="text-pretty mb-3">{projectData.problem}</p>
-          <div className="bg-background w-10 flex items-center justify-center -mr-[50%] left-[50%] absolute -bottom-[6%]">
-            <svg width="16" height="16" className="stroke-accent -rotate-90" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M14 8H2M2 8L7 3M2 8L7 13" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
+
+          {/* down arrow */}
+          <div className="flex items-center w-full justify-center absolute bottom-0">
+            <div className="backdrop-blur-sm px-3 flex items-center justify-between -mb-2.5">
+              <svg width="16" height="16" className="stroke-accent -rotate-90" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 8H2M2 8L7 3M2 8L7 13" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
           </div>
         </section>
       </div>

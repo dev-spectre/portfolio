@@ -7,11 +7,15 @@ function SkillChip({ skill, active }: { skill: string; active?: boolean }) {
 }
 
 export default function Skills() {
-  const languages = ["TypeScript", "Python", "JavaScript", "Java", "Rust", "Nix", "HTML", "CSS", "SQL"];
+  const languages = ["TypeScript", "Python", "JavaScript", "HTML", "CSS", "SQL", "Java", "Rust", "Nix"];
   const frameworks = ["Next.js", "React", "TailwindCSS", "Astro", "Hono.js"];
   const infrastructure = ["PostgreSQL", "Prisma", "Docker", "Git", "Linux"];
 
-  const active = ["TypeScript", "Next.js", "TailwindCSS", "PostgreSQL", "Prisma", "Git", "Linux", "Prisma", "React", "Python", "Docker", "JavaScript"];
+  const active = ["TypeScript", "Next.js", "TailwindCSS", "PostgreSQL", "Prisma", "Git", "Linux", "Prisma", "React", "Python", "Docker", "JavaScript", "HTML", "CSS", "SQL", "Hono.js"];
+
+  languages.sort((a, b) => (active.includes(b) ? 1 : -1));
+  frameworks.sort((a, b) => (active.includes(b) ? 1 : -1));
+  infrastructure.sort((a, b) => (active.includes(b) ? 1 : -1));
 
   return (
     <section id="skills" className="px-5">
